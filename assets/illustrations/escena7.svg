@@ -1,0 +1,30 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Luna abraza a la estrella mientras una lluvia de pequeñas luces llena el jardín">
+  <rect width="400" height="300" fill="#1B2A4A"/>
+  <!-- destello central -->
+  <circle cx="200" cy="150" r="120" fill="#F5B942" opacity="0.15"/>
+  <circle cx="200" cy="150" r="70" fill="#F5B942" opacity="0.22"/>
+  <!-- lluvia de estrellitas -->
+  <g fill="#F5B942">
+    <circle cx="80" cy="60" r="2.4"/>
+    <circle cx="120" cy="100" r="1.8"/>
+    <circle cx="300" cy="70" r="2.2"/>
+    <circle cx="330" cy="120" r="1.6"/>
+    <circle cx="60" cy="180" r="2"/>
+    <circle cx="340" cy="200" r="1.8"/>
+    <circle cx="150" cy="50" r="1.6"/>
+    <circle cx="260" cy="60" r="1.4"/>
+    <circle cx="100" cy="230" r="1.8"/>
+    <circle cx="310" cy="240" r="1.6"/>
+  </g>
+  <!-- Luna abrazando la estrella -->
+  <g transform="translate(200,190)">
+    <path d="M-20,10 Q-20,-24 0,-24 Q20,-24 20,10 Z" fill="#F0806B"/>
+    <circle cx="0" cy="-36" r="15" fill="#3b2a4a"/>
+    <path d="M-15,-36 Q-15,-53 0,-53 Q15,-53 15,-36 Q15,-43 0,-45 Q-15,-43 -15,-36 Z" fill="#2E2036"/>
+    <circle cx="-5" cy="-37" r="1.5" fill="#FBF3E7"/>
+    <circle cx="5" cy="-37" r="1.5" fill="#FBF3E7"/>
+    <path d="M0,-8 L6,0 L18,3 L6,7 L0,20 L-6,7 L-18,3 L-6,0 Z" fill="#F5B942"/>
+    <path d="M-16,-8 Q-24,-2 -16,4" stroke="#F0806B" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <path d="M16,-8 Q24,-2 16,4" stroke="#F0806B" stroke-width="7" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

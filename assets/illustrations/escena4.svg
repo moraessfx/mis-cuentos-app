@@ -1,0 +1,37 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Luna en el bosque con un búho que le muestra dos caminos">
+  <rect width="400" height="300" fill="#16241c"/>
+  <g fill="#F5B942">
+    <circle cx="60" cy="30" r="1.8"/>
+    <circle cx="340" cy="25" r="2"/>
+  </g>
+  <!-- arboles de fondo -->
+  <g fill="#213a2a">
+    <rect x="20" y="80" width="14" height="140"/>
+    <ellipse cx="27" cy="80" rx="38" ry="55"/>
+    <rect x="350" y="60" width="16" height="160"/>
+    <ellipse cx="358" cy="55" rx="42" ry="60"/>
+  </g>
+  <!-- arbol central con buho -->
+  <rect x="185" y="70" width="20" height="150" fill="#2d4a34"/>
+  <ellipse cx="195" cy="70" rx="60" ry="48" fill="#2f5238"/>
+  <g transform="translate(230,95)">
+    <ellipse cx="0" cy="0" rx="16" ry="18" fill="#8a6a4a"/>
+    <circle cx="-6" cy="-4" r="6" fill="#FBF3E7"/>
+    <circle cx="6" cy="-4" r="6" fill="#FBF3E7"/>
+    <circle cx="-6" cy="-4" r="2.5" fill="#2E2036"/>
+    <circle cx="6" cy="-4" r="2.5" fill="#2E2036"/>
+    <path d="M0,2 L-4,8 L4,8 Z" fill="#F5B942"/>
+  </g>
+  <!-- dos caminos -->
+  <path d="M195,230 L90,290 L140,290 L215,235 Z" fill="#3a5a44" opacity="0.8"/>
+  <path d="M205,230 L310,290 L260,290 L195,235 Z" fill="#3a5a44" opacity="0.8"/>
+  <!-- Luna con la estrella en las manos -->
+  <g transform="translate(195,220)">
+    <path d="M-18,10 Q-18,-22 0,-22 Q18,-22 18,10 Z" fill="#F0806B"/>
+    <circle cx="0" cy="-32" r="14" fill="#3b2a4a"/>
+    <path d="M-14,-32 Q-14,-48 0,-48 Q14,-48 14,-32 Q14,-38 0,-40 Q-14,-38 -14,-32 Z" fill="#2E2036"/>
+    <circle cx="-4" cy="-33" r="1.4" fill="#FBF3E7"/>
+    <circle cx="4" cy="-33" r="1.4" fill="#FBF3E7"/>
+    <path d="M0,4 L4,10 L12,12 L4,15 L0,22 L-4,15 L-12,12 L-4,10 Z" fill="#F5B942"/>
+  </g>
+</svg>

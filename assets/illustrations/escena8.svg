@@ -1,0 +1,42 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="El cielo lleno de estrellas y Luna sonriendo, feliz, antes de dormir">
+  <defs>
+    <linearGradient id="sky8" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#12203a"/>
+      <stop offset="55%" stop-color="#1B2A4A"/>
+      <stop offset="100%" stop-color="#241b38"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#sky8)"/>
+  <g fill="#F5B942">
+    <circle cx="40" cy="30" r="1.8"/>
+    <circle cx="90" cy="55" r="1.4"/>
+    <circle cx="140" cy="25" r="2"/>
+    <circle cx="260" cy="35" r="1.6"/>
+    <circle cx="310" cy="60" r="1.8"/>
+    <circle cx="360" cy="25" r="2"/>
+    <circle cx="200" cy="45" r="1.4"/>
+    <circle cx="60" cy="90" r="1.4"/>
+    <circle cx="330" cy="100" r="1.4"/>
+  </g>
+  <!-- la estrella grande, más brillante que todas -->
+  <g transform="translate(200,80)">
+    <path d="M0,-18 L5,-5 L18,0 L5,5 L0,18 L-5,5 L-18,0 L-5,-5 Z" fill="#F5B942"/>
+    <circle cx="-5" cy="-2" r="1.6" fill="#2E2036"/>
+    <circle cx="5" cy="-2" r="1.6" fill="#2E2036"/>
+    <path d="M-4,4 Q0,7 4,4" stroke="#2E2036" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="30" fill="#F5B942" opacity="0.2"/>
+  </g>
+  <!-- ventana y cama -->
+  <rect x="0" y="200" width="400" height="100" fill="#0d1830"/>
+  <rect x="270" y="150" width="90" height="90" rx="8" fill="#2b3f68" stroke="#F5B942" stroke-width="3"/>
+  <line x1="315" y1="150" x2="315" y2="240" stroke="#F5B942" stroke-width="2.5"/>
+  <rect x="60" y="245" width="180" height="12" rx="6" fill="#5a3d2b"/>
+  <rect x="60" y="215" width="180" height="35" rx="14" fill="#B9A6DD"/>
+  <g transform="translate(150,222)">
+    <ellipse cx="0" cy="4" rx="42" ry="12" fill="#F0806B"/>
+    <circle cx="-22" cy="-7" r="12" fill="#3b2a4a"/>
+    <path d="M-34,-7 Q-34,-22 -22,-22 Q-10,-22 -10,-7 Q-10,-13 -22,-15 Q-34,-13 -34,-7 Z" fill="#2E2036"/>
+    <path d="M-27,-7 Q-24,-4 -21,-7" stroke="#FBF3E7" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+    <path d="M-27,-2 Q-22,1 -17,-2" stroke="#FBF3E7" stroke-width="1" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

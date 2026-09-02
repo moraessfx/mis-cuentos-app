@@ -1,0 +1,36 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Un puente hecho de luz sobre las nubes, la estrella comienza a subir">
+  <defs>
+    <linearGradient id="sky6" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#12203a"/>
+      <stop offset="100%" stop-color="#2b3f68"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#sky6)"/>
+  <g fill="#F5B942">
+    <circle cx="50" cy="40" r="2"/>
+    <circle cx="340" cy="30" r="2.2"/>
+    <circle cx="200" cy="20" r="1.6"/>
+  </g>
+  <!-- nubes -->
+  <g fill="#3a4f7a" opacity="0.8">
+    <ellipse cx="70" cy="230" rx="60" ry="18"/>
+    <ellipse cx="330" cy="240" rx="70" ry="20"/>
+  </g>
+  <!-- puente de luz -->
+  <path d="M60,220 Q200,150 340,220" stroke="#F5B942" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.9"/>
+  <path d="M60,220 Q200,150 340,220" stroke="#FBF3E7" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- estrella subiendo -->
+  <g transform="translate(230,165)">
+    <path d="M0,-14 L4,-4 L14,0 L4,4 L0,14 L-4,4 L-14,0 L-4,-4 Z" fill="#F5B942"/>
+    <circle cx="0" cy="0" r="22" fill="#F5B942" opacity="0.25"/>
+  </g>
+  <!-- Luna extendiendo la mano -->
+  <g transform="translate(150,220)">
+    <path d="M-18,10 Q-18,-22 0,-22 Q18,-22 18,10 Z" fill="#F0806B"/>
+    <circle cx="0" cy="-32" r="14" fill="#3b2a4a"/>
+    <path d="M-14,-32 Q-14,-48 0,-48 Q14,-48 14,-32 Q14,-38 0,-40 Q-14,-38 -14,-32 Z" fill="#2E2036"/>
+    <circle cx="-4" cy="-33" r="1.4" fill="#FBF3E7"/>
+    <circle cx="4" cy="-33" r="1.4" fill="#FBF3E7"/>
+    <path d="M18,-10 L45,-30" stroke="#F0806B" stroke-width="7" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cuento próximamente disponible">
+  <rect width="400" height="300" fill="#E4DCF0"/>
+  <circle cx="200" cy="130" r="55" fill="#B9A6DD" opacity="0.5"/>
+  <rect x="172" y="120" width="56" height="46" rx="8" fill="#7c6a9a"/>
+  <path d="M182,120 v-16 a18,18 0 0 1 36,0 v16" fill="none" stroke="#7c6a9a" stroke-width="8"/>
+  <circle cx="200" cy="140" r="5" fill="#E4DCF0"/>
+  <rect x="197" y="140" width="6" height="12" rx="3" fill="#E4DCF0"/>
+</svg>
