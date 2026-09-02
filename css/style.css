@@ -129,6 +129,7 @@ img, svg { display: block; max-width: 100%; }
 .topbar__title {
   font-size: 20px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 /* ---------- Pantalla de inicio ---------- */
@@ -183,6 +184,7 @@ img, svg { display: block; max-width: 100%; }
   font-family: var(--font-display);
   font-size: 18px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .big-nav {
@@ -288,6 +290,7 @@ img, svg { display: block; max-width: 100%; }
   font-size: 17px;
   font-weight: 700;
   color: var(--night);
+  text-transform: uppercase;
 }
 
 .story-card__meta {
@@ -370,6 +373,8 @@ img, svg { display: block; max-width: 100%; }
   line-height: 1.65;
   color: var(--ink);
   margin-bottom: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
 }
 
 .scene-text p { margin-bottom: 12px; }
@@ -427,6 +432,7 @@ img, svg { display: block; max-width: 100%; }
   text-align: center;
   box-shadow: var(--shadow-soft);
   min-height: 60px;
+  text-transform: uppercase;
 }
 
 .decision-btn:active { transform: translateY(2px); }
@@ -444,6 +450,7 @@ img, svg { display: block; max-width: 100%; }
   font-weight: 700;
   min-height: 58px;
   box-shadow: var(--shadow-soft);
+  text-transform: uppercase;
 }
 
 .nav-btn--back {
@@ -494,6 +501,7 @@ img, svg { display: block; max-width: 100%; }
   color: var(--night);
   text-align: center;
   margin-bottom: 22px;
+  text-transform: uppercase;
 }
 
 .quiz-options {
@@ -512,6 +520,7 @@ img, svg { display: block; max-width: 100%; }
   box-shadow: var(--shadow-soft);
   border: 3px solid transparent;
   text-align: left;
+  text-transform: uppercase;
 }
 
 .quiz-option--selected { border-color: var(--lavender); }
@@ -674,6 +683,7 @@ img, svg { display: block; max-width: 100%; }
   font-weight: 700;
   width: 100%;
   min-height: 58px;
+  text-transform: uppercase;
 }
 
 .empty-state {
