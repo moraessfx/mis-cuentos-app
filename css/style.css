@@ -42,6 +42,7 @@ html, body {
   font-family: var(--font-body);
   -webkit-tap-highlight-color: transparent;
   overscroll-behavior-y: contain;
+  text-transform: uppercase;
 }
 
 body {
